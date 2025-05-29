@@ -96,7 +96,7 @@ export default function ContactPage() {
                     className="min-h-[120px] bg-gray-900 border-gray-700 text-white placeholder:text-gray-500 rounded-none focus:border-gray-500 focus:ring-0"
                   />
                 </div>
-                <Button className="w-full bg-white text-black hover:bg-gray-200 rounded-none font-medium">
+                <Button className="w-full bg-slate-700 text-white hover:bg-slate-800 rounded-none font-medium">
                   Send Message
                 </Button>
               </div>
@@ -167,7 +167,7 @@ export default function ContactPage() {
             <h2 className="text-4xl font-light tracking-tight mb-6">Frequently Asked Questions</h2>
             <div className="w-16 h-0.5 bg-white mx-auto mb-6"></div>
             <p className="text-gray-400 text-lg leading-relaxed">
-              Quick answers to common questions about working with Gorilla Gaming.
+              Quick answers to common questions about working with Gorira Gaming.
             </p>
           </div>
           <div className="max-w-4xl mx-auto space-y-8">

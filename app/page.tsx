@@ -12,7 +12,7 @@ export default function HomePage() {
           <div className="grid gap-12 lg:grid-cols-[1fr_400px] lg:gap-16 xl:grid-cols-[1fr_600px]">
             <div className="flex flex-col justify-center space-y-8">
               <div className="space-y-6">
-                <h1 className="text-5xl font-light tracking-tight sm:text-6xl xl:text-7xl">Gorilla Gaming</h1>
+                <h1 className="text-5xl font-light tracking-tight sm:text-6xl xl:text-7xl">Gorira Gaming</h1>
                 <div className="w-16 h-0.5 bg-white"></div>
                 <p className="max-w-[600px] text-gray-400 text-lg leading-relaxed">
                   Unleash the beast within. We create immersive gaming experiences that push the boundaries of what's
@@ -21,7 +21,7 @@ export default function HomePage() {
               </div>
               <div className="flex gap-4">
                 <Link href="/about">
-                  <Button size="lg" className="bg-white text-black hover:bg-gray-200 font-medium">
+                  <Button size="lg" className="bg-slate-700 text-white hover:bg-slate-800 font-medium">
                     Discover Our Games
                   </Button>
                 </Link>
@@ -29,7 +29,7 @@ export default function HomePage() {
                   <Button
                     variant="outline"
                     size="lg"
-                    className="border-gray-400 text-gray-400 hover:bg-gray-400 hover:text-black font-medium"
+                    className="bg-slate-00 border-gray-400 text-white hover:bg-slate-800 hover:text-black font-medium"
                   >
                     Get In Touch
                   </Button>
@@ -49,7 +49,7 @@ export default function HomePage() {
       <section className="w-full py-24 md:py-32 bg-gray-950">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl font-light tracking-tight mb-6 text-white">Why Choose Gorilla Gaming?</h2>
+            <h2 className="text-4xl font-light tracking-tight mb-6 text-white">Why Choose Gorira Gaming?</h2>
             <div className="w-16 h-0.5 bg-white mx-auto mb-6"></div>
             <p className="text-gray-400 text-lg leading-relaxed">
               We combine raw power with intelligent design to create gaming experiences that dominate the competition.
@@ -106,7 +106,7 @@ export default function HomePage() {
             <h2 className="text-4xl font-light tracking-tight mb-6">Our Latest Games</h2>
             <div className="w-16 h-0.5 bg-white mx-auto mb-6"></div>
             <p className="text-gray-400 text-lg leading-relaxed">
-              Experience the power of gorilla-level gaming with our latest releases.
+              Experience the power of gorira-level gaming with our latest releases.
             </p>
           </div>
           <div className="grid gap-8 lg:grid-cols-3 max-w-6xl mx-auto">
@@ -140,7 +140,7 @@ export default function HomePage() {
                   <Zap className="h-12 w-12 text-gray-500" />
                 </div>
                 <div className="px-6 pb-6">
-                  <CardTitle className="text-white text-xl font-medium mb-2">Gorilla Racing</CardTitle>
+                  <CardTitle className="text-white text-xl font-medium mb-2">Gorira Racing</CardTitle>
                   <CardDescription className="text-gray-400">High-speed racing with a wild twist</CardDescription>
                 </div>
               </CardHeader>
@@ -160,7 +160,7 @@ export default function HomePage() {
             </p>
             <div className="flex gap-4 justify-center">
               <Link href="/contact">
-                <Button size="lg" className="bg-white text-black hover:bg-gray-200 font-medium">
+                <Button size="lg" className="bg-slate-700 text-white hover:bg-slate-800 font-medium">
                   Contact Us
                 </Button>
               </Link>
@@ -168,7 +168,7 @@ export default function HomePage() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-gray-400 text-gray-400 hover:bg-gray-400 hover:text-black font-medium"
+                  className="bg-slate-00 border-gray-400 text-white hover:bg-slate-800 hover:text-black font-medium"
                 >
                   Learn More
                 </Button>

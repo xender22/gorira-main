@@ -9,11 +9,11 @@ export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-gray-800 bg-black/95 backdrop-blur supports-[backdrop-filter]:bg-black/60">
+    <header className="sticky top-0 z-50 w-full border-b border-gray-800 bg-slate-950 backdrop-blur supports-[backdrop-filter]:bg-slate-950/90">
       <div className="container mx-auto flex h-16 items-center px-4 md:px-6">
         <Link href="/" className="flex items-center space-x-3">
           <Gamepad2 className="h-5 w-5 text-white" />
-          <span className="font-light text-lg text-white tracking-wide">Gorilla Gaming</span>
+          <span className="font-light text-lg text-white tracking-wide">Gorira Gaming</span>
         </Link>
 
         {/* Desktop Navigation */}

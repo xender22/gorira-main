@@ -8,9 +8,9 @@ import { Footer } from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Gorilla Gaming Studios - Unleash the Beast Within",
+  title: "Gorira Gaming Studios - Unleash the Beast Within",
   description:
-    "Creating immersive gaming experiences that push the boundaries of what's possible. Join the pack at Gorilla Gaming Studios.",
+    "Creating immersive gaming experiences that push the boundaries of what's possible. Join the pack at Gorira Gaming Studios.",
     generator: 'v0.dev'
 }
 
