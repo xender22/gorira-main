@@ -10,7 +10,7 @@ export default function AboutPage() {
       <section className="relative bg-black text-white py-32 lg:py-48">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl font-light tracking-tight sm:text-6xl xl:text-7xl mb-6">About Gorira Gaming</h1>
+            <h1 className="text-5xl font-light tracking-tight sm:text-6xl xl:text-7xl mb-6">About Gorira</h1>
             <div className="w-16 h-0.5 bg-white mx-auto mb-8"></div>
             <p className="text-gray-400 text-lg leading-relaxed max-w-2xl mx-auto">
               We are a passionate team of developers, designers, and gamers united by our love for creating

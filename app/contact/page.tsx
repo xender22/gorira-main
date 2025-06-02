@@ -167,7 +167,7 @@ export default function ContactPage() {
             <h2 className="text-4xl font-light tracking-tight mb-6">Frequently Asked Questions</h2>
             <div className="w-16 h-0.5 bg-white mx-auto mb-6"></div>
             <p className="text-gray-400 text-lg leading-relaxed">
-              Quick answers to common questions about working with Gorira Gaming.
+              Quick answers to common questions about working with Gorira.
             </p>
           </div>
           <div className="max-w-4xl mx-auto space-y-8">

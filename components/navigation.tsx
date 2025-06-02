@@ -3,17 +3,17 @@
 import { useState } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Menu, X, Gamepad2 } from "lucide-react"
+import { Menu, X, Gamepad2, Banana} from "lucide-react"
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-gray-800 bg-slate-950 backdrop-blur supports-[backdrop-filter]:bg-slate-950/90">
+    <header className="sticky top-0 z-50 w-full border-b border-gray-800 bg-slate-800/20 backdrop-blur">
       <div className="container mx-auto flex h-16 items-center px-4 md:px-6">
         <Link href="/" className="flex items-center space-x-3">
-          <Gamepad2 className="h-5 w-5 text-white" />
-          <span className="font-light text-lg text-white tracking-wide">Gorira Gaming</span>
+          <Banana className="h-5 w-5 text-yellow-500" />
+          <span className="font-light text-lg text-white tracking-wide">GOリRA</span>
         </Link>
 
         {/* Desktop Navigation */}

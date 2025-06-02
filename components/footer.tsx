@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Gamepad2, Twitter, Facebook, Instagram, Youtube } from "lucide-react"
+import { Gamepad2, Twitter, Facebook, Instagram, Youtube, Banana } from "lucide-react"
 
 export function Footer() {
   return (
@@ -9,8 +9,8 @@ export function Footer() {
           {/* Company Info */}
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
-              <Gamepad2 className="h-5 w-5 text-white" />
-              <span className="font-light text-lg tracking-wide">Gorira Gaming</span>
+              <Banana className="h-5 w-5 text-yellow-500" />
+              <span className="font-light text-lg tracking-wide">Gorira</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
               Creating immersive gaming experiences that push the boundaries of what's possible.
@@ -77,7 +77,7 @@ export function Footer() {
 
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-xs text-gray-400">
-            © {new Date().getFullYear()} Gorira Gaming Studios. All rights reserved.
+            © {new Date().getFullYear()} Gorira Studios. All rights reserved.
           </p>
           <nav className="flex space-x-6 text-xs text-gray-400 mt-4 sm:mt-0">
             <Link href="#" className="hover:text-white transition-colors">

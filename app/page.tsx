@@ -12,7 +12,7 @@ export default function HomePage() {
           <div className="grid gap-12 lg:grid-cols-[1fr_400px] lg:gap-16 xl:grid-cols-[1fr_600px]">
             <div className="flex flex-col justify-center space-y-8">
               <div className="space-y-6">
-                <h1 className="text-5xl font-light tracking-tight sm:text-6xl xl:text-7xl">Gorira Gaming</h1>
+                <h1 className="text-5xl font-light tracking-tight sm:text-6xl xl:text-7xl">GOリRA</h1>
                 <div className="w-16 h-0.5 bg-white"></div>
                 <p className="max-w-[600px] text-gray-400 text-lg leading-relaxed">
                   Unleash the beast within. We create immersive gaming experiences that push the boundaries of what's
@@ -49,7 +49,7 @@ export default function HomePage() {
       <section className="w-full py-24 md:py-32 bg-gray-950">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-4xl font-light tracking-tight mb-6 text-white">Why Choose Gorira Gaming?</h2>
+            <h2 className="text-4xl font-light tracking-tight mb-6 text-white">Why Choose Gorira?</h2>
             <div className="w-16 h-0.5 bg-white mx-auto mb-6"></div>
             <p className="text-gray-400 text-lg leading-relaxed">
               We combine raw power with intelligent design to create gaming experiences that dominate the competition.
