@@ -24,6 +24,9 @@ export function Navigation() {
           <Link href="/about" className="text-gray-400 transition-colors hover:text-white">
             About
           </Link>
+           <Link href="/privacy-policy" className="text-gray-400 transition-colors hover:text-white">
+            Privacy Policy
+          </Link>
           <Link href="/contact" className="text-gray-400 transition-colors hover:text-white">
             Contact
           </Link>
